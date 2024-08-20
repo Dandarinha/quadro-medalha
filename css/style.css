@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DM+Serif+Text:ital@0;1&display=swap');
+h1 {
+    
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+img{
+  height: 25px;/* altura da imagem */
+  width: 25px;/* largura da imagem */
+}
+
+.medalhas {
+height: 20px;
+width: 20px;
+}
+td {
+  text-align: center;
+}
+
+.pais {
+  text-align: left;
+  width: 200;
+}
+
+td {
+  width: 30px;
+}
+
+
+td:nth-child(1) {
+  width: 15px;
+}
+
+td:nth-child(3) {
+  text-align: left;
+  width: 200px;
+}
+
+img:hover {
+  transform: scale(2);
+}
+
+tr:hover {
+  background-color: gray;
+}
